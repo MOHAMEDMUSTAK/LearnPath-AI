@@ -13,6 +13,7 @@ import { Sparkles } from "lucide-react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { LearnMateProvider } from "../lib/store";
+import { Toaster } from "../components/ui/sonner";
 
 function NotFoundComponent() {
   return (
