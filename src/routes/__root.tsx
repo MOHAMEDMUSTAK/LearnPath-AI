@@ -113,6 +113,7 @@ function RootComponent() {
         <footer className="mt-24 border-t bg-card/40 py-8 text-center text-sm text-muted-foreground">
           © {new Date().getFullYear()} LearnMate AI · Learn Smarter. Grow Faster.
         </footer>
+        <Toaster />
       </LearnMateProvider>
     </QueryClientProvider>
   );
